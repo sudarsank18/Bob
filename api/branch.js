@@ -4,8 +4,8 @@ import bodyparse from 'body-parser'
 const app = express()
 
 const supabase = createClient(
-    'https://fehuecmfzeppnrhlvxqx.supabase.com',
-'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZlaHVlY21memVwcG5yaGx2eHF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzc1NzkyNTcsImV4cCI6MTk5MzE1NTI1N30.pXimYKqrNJzKj9UxrqV37WudBE1s7S13_MFVaZU0yaM'
+    'https://imgqqwycrjrspxjquoai.supabase.co',
+'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltZ3Fxd3ljcmpyc3B4anF1b2FpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzc1ODI1NTksImV4cCI6MTk5MzE1ODU1OX0.0_heEF_9-UOgIYMf8fFqXCrJRSzj9e3wssDN1anDpm4'
 );
 app.use(bodyparse.json())
 app.use(
